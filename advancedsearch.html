@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="/css/advancedstyle.css">
+    </head>
+    <body>
+        <nav class ="header">       
+            <div class="header-left">
+                <a href="index.html">
+                    <img src="/Google_2015_logo.svg.png" alt="Google logo" class="logo">
+                </a>
+            </div>   
+            <div class="header-right">
+                <button class= "btn-blue">
+                    Log in
+                </button>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="main1">
+                <h1>Advanced search</h1>
+            </div>
+            <hr class ="line">
+            <div class="main2">
+                <form action="https://www.google.com/search">
+                    <div class="grid">
+                        <h2 class = "grid-item heading-1">Find a site with...</h2>
+                        <h3 class = "grid-item sub-heading-1">To do this in the search box.</h3>
+                        <div class="grid-item">    
+                            <label for="">all these words:</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input" placeholder="" name="as_q">
+                        </div>
+                        <div class="grid-item second-label">
+                            Enter key words: terrier calico mouse
+                        </div>
+                        <div class="grid-item">
+                            <label for="">this exact word or phrase:</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input" placeholder="" name="as_q">
+                        </div>
+                        <div class="grid-item second-label">
+                            Put the exact word in quotation marks: "rat terrier"
+                        </div>
+                        <div class="grid-item">
+                            <label for="">any of these words:</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input" placeholder="" name="as_q">
+                        </div>
+                        <div class="grid-item second-label">
+                            Type OR between all the words you want: minimize OR standard
+                        </div>
+                        <div class="grid-item">
+                            <label for="">none of these words:</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input" placeholder="" name="as_q">
+                        </div>
+                        <div class="grid-item second-label">
+                            Put a minus sign right before the word you don't want: -rodent, -"Jack Russell"
+
+                        </div>
+                        <div class="grid-item">
+                            <label for="">numbers in the range:</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input1" placeholder="" name="as_q">
+                            <span class="span1">next</span>
+                            <input type="text" class="search_input1" placeholder="" name="as_q">
+                        </div> 
+                        <div class="grid-item second-label">        
+                        Place 2 dots between numbers and add units of measure: 10..35 lb, $300..$500, 2010..2011
+                        </div>
+                        <hr>
+                        <h2 class = "grid-item heading-2">Then narrow down your<br> results by...
+                        </h2>
+                        <div class="grid-item">
+                            <label for="">language:</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="lr" id="" class="search_input2">
+                                <option value="">any language</option>
+                                <option value="lang_en">English</option>
+                                <option value="lang_hi">Vietnamese</option>
+                            </select>
+                         </div>
+                        <div class="grid-item second-label">
+                            Find the page in the language of your choice.
+                        </div>
+                        <div class="grid-item">
+                            <label for="">region:</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="cr" id="" class="search_input2">
+                                <option value="">all regions</option>
+                                <option value="countryUSA">USA</option>
+                                <option value="countryVi">Vietnam</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Find pages published in a specific region.
+                        </div>
+                        <div class="grid-item">
+                            <label for="">Most recent update:</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="dr" id="" class="search_input2">
+                                <option value="all">whenever</option>
+                                <option value="d">last 24 hours</option>
+                                <option value="w">last week</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Find the page that is updated during the time you specify.
+                        </div>
+                        <div class="grid-item">
+                            <label for="">website or domain name</label>
+                        </div>
+                        <div class="grid-item">
+                            <input type="text" class="search_input" placeholder="" name="as_q">
+                        </div>
+                        <div class="grid-item second-label">
+                            Search on a website (like wikipedia.org ) or limit your results to a domain like .edu , .org or .gov
+                        </div>
+                        <div class="grid-item">
+                            <label for="">where the word appears:</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="fr" id="" class="search_input2">
+                                <option value="">everywhere</option>
+                                <option value="title">in the title</option>
+                                <option value="text">in the text</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Search for terms throughout the page, page title or web address, or link to the page you're looking for.
+                        </div>
+                        <div class="grid-item blue_text">
+                            <label for="">Safe search :</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="gr" id="" class="search_input2">
+                                <option value="s">Showing obsence results</option>
+                                <option value="h">Hiding obsence results</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Tell <span class="blue_text">SafeSearch</span> whether to filter pornography.
+                        </div>
+                        <div class="grid-item">
+                            <label for="">file type:</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="hr" id="" class="search_input2">
+                                <option value="">any format</option>
+                                <option value="pdf">PDF</option>
+                                <option value="ps">Postscript</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Find the page with the format you want.
+                        </div>
+                        <div class="grid-item blue_text">
+                            <label for="">right to use :</label>
+                        </div>
+                        <div class="grid-item">
+                            <select name="jr" id="" class="search_input2">
+                                <option value="not">not filtered by license</option>
+                                <option value="allow">allowed to use or share</option>
+                            </select>
+                        </div>
+                        <div class="grid-item second-label">
+                            Find the site that you are authorized to use.
+                        </div>
+                        <button class="btn-blue margin">          
+                            Advanced search
+                        </button>
+                    </div>
+            </form>   
+        </div>
+        <hr>  
+    </body>
+</html>
